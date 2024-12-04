@@ -64,7 +64,7 @@ kubeadm init --apiserver-advertise-address="$ipaddr" --pod-network-cidr=172.16.0
 # Save join command
 echo "Saving join command"
 tail -2 /tmp/result.out > /tmp/join_command.sh
-aws s3 cp /tmp/join_command.sh s3://${s3bucket_name}
+aws s3 cp /tmp/join_command.sh s3://${s3buckit_name}
 
 # Configure kubeconfig
 echo "Configuring kubeconfig"
