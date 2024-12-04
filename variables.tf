@@ -9,7 +9,7 @@ variable "secret_key" { #Todo: uncomment the default value and add your secert k
   default     = ""
 }
 variable "ami_key_pair_name" { #Todo: uncomment the default value and add your pem key pair name. Hint: don't write '.pem' exction just the key name
-  default = "./sshkeys/mykey"
+  default = "mykey"
 }
 variable "number_of_worker" {
   description = "number of worker instances to be join on cluster."
