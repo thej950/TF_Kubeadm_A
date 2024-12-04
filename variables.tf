@@ -23,7 +23,7 @@ variable "region" {
 
 variable "ami_id" {
   description = "The AMI to use"
-  default     = "ami-0a6b2839d44d781b2" #Ubuntu 20.04
+  default     = "ami-0866a3c8686eaeeba" #Ubuntu 20.04
 }
 
 variable "instance_type" {
